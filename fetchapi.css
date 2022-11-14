@@ -1,0 +1,44 @@
+body{
+    width: 85%;
+    overflow-x: hidden;
+    margin: 0;
+    margin-inline: auto;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+}
+
+div.container{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+}
+.welcome > h1{
+    font-size: 3rem;
+    text-align: center;
+}
+div.border-container{
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 85%;
+    margin-inline: auto;
+    flex: 1 1 400px;
+    padding-inline: 1em;
+}
+h1{
+    font-size: 1.9rem;
+}
+div.img{
+    width: 100%;
+}
+img{
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+div.category > h2{
+    text-transform: capitalize;
+}
