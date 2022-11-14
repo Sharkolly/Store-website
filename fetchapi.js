@@ -1,6 +1,7 @@
-fetch("https://fakestoreapi.com/products").then((myJson) => {
+const myFetch = fetch("https://fakestoreapi.com/products").then((myJson) => {
     myJson.json().then((values) => {
         let data = '';
+        console.log(values);
         values.map((values) => {
             data += `<div class="border-container">
             <div class="title"><h1>${values.title}</h1></div>
@@ -48,3 +49,20 @@ sessionStorage.setItem("myAge", JSON.stringify(myObj));
 const agePart = JSON.parse(sessionStorage.getItem("myAge"));
 
 console.log(agePart);
+
+const myP = document.createElement("p");
+setInterval(() => {
+    const myDate = new Date();
+    const hr = myDate.getHours();
+    const min = myDate.getMinutes();
+    const date = myDate.getDate();
+    const day = myDate.getDay();
+    const dayy = myDate.getUTCDay();
+    const sec = myDate.getSeconds();
+
+    myP.textContent = `${hr} hours and ${min} minutes ${sec} seconds`;
+    myP.style.color = 'white';
+    myP.style.textAlign = 'center'
+
+    document.body.appendChild(myP);
+}, 1000);
