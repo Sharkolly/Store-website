@@ -72,3 +72,6 @@ setInterval(() => {
 
 
 alert("Hello Bitch");
+
+
+document.write("Hello");
