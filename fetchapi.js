@@ -61,5 +61,3 @@ setInterval(() => {
 
     document.body.appendChild(myP);
 }, 1000);
-
-document.write("Hello");
