@@ -30,11 +30,6 @@ const myFetch = fetch("https://fakestoreapi.com/products").then((myJson) => {
 })
 
 
-const myNum = [
-    "name", "age", "height"
-]
-
-
 const myObj = {
     name: 'fola',
     prop: [
@@ -66,12 +61,5 @@ setInterval(() => {
 
     document.body.appendChild(myP);
 }, 1000);
-
-
-
-
-
-alert("Hello Bitch");
-
 
 document.write("Hello");
