@@ -42,3 +42,6 @@ img{
 div.category > h2{
     text-transform: capitalize;
 }
+img:hover{
+    scale: 1.1;
+}
