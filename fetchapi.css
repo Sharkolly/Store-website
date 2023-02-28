@@ -28,6 +28,9 @@ div.border-container{
     flex: 1 1 400px;
     padding-inline: 1em;
 }
+div.border-container:hover{
+    scale: 1.1;
+}
 h1{
     font-size: 1.9rem;
 }
@@ -41,7 +44,4 @@ img{
 }
 div.category > h2{
     text-transform: capitalize;
-}
-img:hover{
-    scale: 1.1;
 }
