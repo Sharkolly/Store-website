@@ -28,9 +28,8 @@ div.border-container{
     flex: 1 1 400px;
     padding-inline: 1em;
 }
-div.border-container:hover{
-    scale: 1;
-}
+
+
 h1{
     font-size: 1.9rem;
 }
